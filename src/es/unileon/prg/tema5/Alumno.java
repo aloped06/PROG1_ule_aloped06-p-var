@@ -1,20 +1,20 @@
 package es.unileon.prg.tema5;
 
 /**
- * Clase que representa un alumno.
+ * Programacion I G2
  * 
- * @author PRG
- * @version 1.0
+ * @author Asier Lopez
+ * @version 1.1
  */
 public class Alumno {
 	/**
-	 * Identificador del alumno
+	 * aloped06
 	 * 
 	 * @see String
 	 */
 	private String niu;
 	/**
-	 * Nombre del alumno
+	 * Asier Lopez
 	 * 
 	 * @see String
 	 */
@@ -28,9 +28,9 @@ public class Alumno {
 	 * Constructor de la clase. Crea un alumno con la informacion recibida
 	 * 
 	 * @param niu
-	 *            Identificador del alumno
+	 *            aloped06
 	 * @param nombre
-	 *            Nombre del alumno
+	 *            Asier Lopez
 	 */
 	public Alumno(String niu, String nombre) {
 		this.niu = niu;
