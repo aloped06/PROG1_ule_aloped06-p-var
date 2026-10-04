@@ -3,8 +3,8 @@ package es.unileon.prg.tema5;
 /**
  * Clase comun a las clases a completar.
  *
- * @author PRG
- * @version 1.0
+ * @author Asier Lopez
+ * @version 1.1
  */
 public abstract class Apartado {
 

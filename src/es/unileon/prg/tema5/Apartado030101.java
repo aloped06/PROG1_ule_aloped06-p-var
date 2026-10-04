@@ -5,8 +5,8 @@ import java.math.BigDecimal;
 /**
  * Clase con los ejercicios correspondientes a tipos de datos basicos.
  *
- * @author PRG
- * @version 1.0
+ * @author Asier Lopez
+ * @version 1.1
  */
 public class Apartado030101 extends Apartado {
 
@@ -31,19 +31,19 @@ public class Apartado030101 extends Apartado {
 		cabecera("01", "Correccion de errores de compilacion");
 
 		// Inicio modificacion
-		Int entero = 6;
-		long otroEntero = 1.000;
-		long decimal = 7.0;
-		double otroDecimal = 7,0;
-		byte enteroDe8Bits = 10000;
-		char caracter = a;
-		char otroCaracter = "a";
-		boolean booleano = "true";
-		short enteroDe16Bits = 50000;
+		short entero = 6;
+		long otroEntero = 1000;
+		double decimal = 7.0;
+		double otroDecimal = 7.0;
+		byte enteroDe8Bits = 100;
+		char caracter = 'a';
+		char otroCaracter = 'a';
+		boolean booleano = true;
+		short enteroDe16Bits = 5000;
 
-		byte static = 5;
-		byte int = 3;
-		double _otra-Variable = 2.0;
+		byte cinco = 5;
+		byte tres = 3;
+		double _otraVariable = 2.0;
 		// Fin modificacion
 	}
 
@@ -59,16 +59,16 @@ public class Apartado030101 extends Apartado {
 		cabecera("02", "Definicion de tipo de datos");
 
 		// Inicio modificacion
-		variable1 = 637;
-		variable2 = 637L;
-		variable3 = 6.37;
-		variable4 = 6.37f;
-		variable5 = 6.37d;
-		variable6 = '6';
-		variable7 = "6.37";
-		variable8 = 'a';
-		variable9 = "a";
-		variable10 = true;
+		short decimal = 637;
+		long numero = 637L;
+		double otronumero = 6.37;
+		float otrodecimal = 6.37f;
+		double decimal2 = 6.37d;
+		char numero1 = '6';
+		String numero2 = "6.37";
+		char caracter = 'a';
+		String caracter1 = "a";
+		boolean verdadro = true;
 		// Fin modificacion
 	}
 
@@ -85,16 +85,16 @@ public class Apartado030101 extends Apartado {
 
 		// Inicio modificacion
 
-		//Numero de asignaturas de un curso
-		//Nota media de la asignatura
-		//Edad de una persona
-		//Salario mensual de un empleado
-		//Nombre de una asignatura
-		//Constante PI
-		//Constante VERDADERO
-		//Portal de la direccion de una vivienda
-		//Piso de la direccion de una vivienda
-		//Puerta la direccion de una vivienda
+		//int asignaturas
+		//double notamedia
+		//long edad 
+		//float salario 
+		//String nombreasignatura 
+		//double pi
+		//boolean verdadero
+		//short portal
+		//long piso
+		//String puerta
 
 		// Fin modificacion
 	}
@@ -137,7 +137,7 @@ public class Apartado030101 extends Apartado {
 	 * <li> Analizar los resultados obtenidos
 	 * </ul>
 	 */
-	public void ejercicio05() {
+	public void eje030101rcicio05() {
 		cabecera("05", "La clase <<BigDecimal>>");
 
 		// Inicio modificacion

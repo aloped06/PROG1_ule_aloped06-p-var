@@ -3,8 +3,8 @@ package es.unileon.prg.tema5;
 /**
  * Clase con los ejercicios correspondientes a operadores.
  *
- * @author PRG
- * @version 1.0
+ * @author Asier Lopez
+ * @version 1.1
  */
 public class Apartado030102 extends Apartado {
 
@@ -28,9 +28,17 @@ public class Apartado030102 extends Apartado {
 
 		// Inicio modificacion
 		final int CONST=128;
-		int op1;
-		int op2;
+		int op1 = 2 ;
+		int op2 ;
 		int resultado;
+
+		op1 = ++op1 * 12 ;
+		op2= --op1 + CONST ;
+		resultado = op2 % op1 ;
+
+		System.out.println("op1 = " + op1);
+		System.out.println("op2 = " + op2);
+		System.out.println("resultado = " + resultado);
 		//Preincrementa op1 y multiplicalo por 12
 		//El valor de op2 es la suma op1 predecrementado con CONST
 		//Halla el resto de dividir op2 entre op1 y guardalo en resultado
@@ -49,10 +57,13 @@ public class Apartado030102 extends Apartado {
 		cabecera("02", "Utilizacion de operadores logicos");
 
 		// Inicio modificacion
-		int edad;
-		int numeroPartes;
-		boolean deportivo;
+		int edad = 20;
+		int numeroPartes = 2;
+		boolean deportivo = false;
 		boolean rebaja;
+
+		rebaja = edad > 19 && numeroPartes < 3 && !deportivo ;
+		System.out.println("rebaja = " + rebaja) ;
 		// rebaja = expresion booleana
         /* DESCOMENTAR
 		System.out.println("Rebaja = " + rebaja);
@@ -73,6 +84,11 @@ public class Apartado030102 extends Apartado {
 		// Inicio modificacion
 		int segundos, horas, minutos;
 		int totalSegundos=56000;
+
+		horas = totalSegundos/3600 ;
+		minutos = (totalSegundos%3600)/60 ;
+		segundos = (totalSegundos%3600)%60 ;
+		System.out.println(horas+"h "+minutos+"m "+segundos+"s ") ;
 		// Realizacion de calculos
          /* DESCOMENTAR
 		System.out.println(horas+"h "+minutos+"m "+segundos+"s ");
