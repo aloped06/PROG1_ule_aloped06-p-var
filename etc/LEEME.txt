@@ -1,9 +1,23 @@
 Practica P-VAR
 
-Alumno:
+Alumno: Asier Lopez
 
 Horas dedicadas:
 
 Problemas surgidos al realizar la practica:
 
 Respuestas a la preguntas:
+
+Ejercicio 4 , Apartado 030101:
+Primeramente le damos un valor a dos variables con double , valor1 y valor2 , despues como pone
+la variable resultado va a ser la resta entre el valor 1 y el valor 2 , y ejecutara un comando
+en el que los restara y te dara el valor resultado. Al ejercutar nos dara que 2.8 - 1.5 = 1.29999998 ,
+ya que esto es debido a como se almacenan los decimales en los ordenadores , ya que double almacena los decimales 
+con sus aproximaciones binarias.
+
+Ejercicio 5 , Apartado 030101:
+
+En este ejercicio le damos los mismos valores pero con BigDecimal , BigDecimal guarda los decimales sin sus 
+aproximaciones binarias , entonces al hacer la resta entre el valor1 y el valor2 el numero que sale es exacto 
+y sin decimales , dandonos asi 2.8 - 1.5 = 1.3
+

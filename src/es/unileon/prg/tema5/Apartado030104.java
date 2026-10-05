@@ -3,8 +3,8 @@ package es.unileon.prg.tema5;
 /**
  * Clase con los ejercicios correspondientes a conversiones de tipo.
  *
- * @author PRG
- * @version 1.0
+ * @author Asier
+ * @version 1.1
  */
     public class Apartado030104 extends Apartado {
    

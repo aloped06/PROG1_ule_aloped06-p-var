@@ -4,8 +4,8 @@ package es.unileon.prg.tema5;
  * Clase con los ejercicios correspondientes a operadores matematicos. La clase
  * "Math"
  *
- * @author PRG
- * @version 1.0
+ * @author Asier Lopez
+ * @version 1.1
  */
 public class Apartado030103 extends Apartado {
 
@@ -29,6 +29,10 @@ public class Apartado030103 extends Apartado {
 		cabecera("01", "Calcular la raiz cuadrada de un numero");
 
 		// Inicio modificacion
+		double numero = 4 ;
+		double raiz = Math.sqrt(numero) ;
+		System.out.println("la raiz cuadrada de el numero = " + raiz) ;
+
 		// Fin modificacion
 	}
 
@@ -45,6 +49,10 @@ public class Apartado030103 extends Apartado {
 		cabecera("02", "Calcular potencias");
 
 		// Inicio modificacion
+		double nueve = 9 ;
+		double cubodenueve = Math.pow ( 9 , 3) ;
+		System.out.println(" cubodenueve = " + cubodenueve );
+
 		// Fin modificacion
 	}
 
@@ -60,6 +68,8 @@ public class Apartado030103 extends Apartado {
 		cabecera("03", "Generar numeros aleatorios");
 
 		// Inicio modificacion
+		double numeroaleatorio = (Math.random() *5 ) + 5 ;
+		System.out.println("numeroaleatorio = " + numeroaleatorio) ;
 		// Fin modificacion
 	}
 
@@ -75,6 +85,10 @@ public class Apartado030103 extends Apartado {
 		cabecera("04", "Calcular la superficie de un circulo");
 
 		// Inicio modificacion
+		double radio = 10 ;
+		double superficiecirculo = Math.PI * Math.pow( radio , 2) ;
+		System.out.println("superficiecirculo = " + superficiecirculo) ;
+		
 		// Fin modificacion
 	}
 }
