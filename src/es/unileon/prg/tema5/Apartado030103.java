@@ -50,7 +50,7 @@ public class Apartado030103 extends Apartado {
 
 		// Inicio modificacion
 		double nueve = 9 ;
-		double cubodenueve = Math.pow ( 9 , 3) ;
+		double cubodenueve = Math.pow ( nueve , 3) ;
 		System.out.println(" cubodenueve = " + cubodenueve );
 
 		// Fin modificacion

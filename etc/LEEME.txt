@@ -21,3 +21,35 @@ En este ejercicio le damos los mismos valores pero con BigDecimal , BigDecimal g
 aproximaciones binarias , entonces al hacer la resta entre el valor1 y el valor2 el numero que sale es exacto 
 y sin decimales , dandonos asi 2.8 - 1.5 = 1.3
 
+Ejercicio 1 , Apartado 030104:
+
+varInt = varShort , correcta ya que solo ampliamos la capacidad 
+varDouble = varFloat , correcta , solo ampliamos la capacidad
+varFloat = varLong , correcta , ampliamos capacidad y ahora tambien tenemos decimales
+varLong = 9223372036854775807L , correcta ya que es el valor maximo que puede tomar un long
+varLong = varInt , correcta , ampliamos la capacidad de int a long 
+varFloat = varLong , correcta , ampliamos capacidad e implementamos decimales 
+varByte = varShort , incorrecta , ya que el valor de varShort no cabe en byte
+varShort = varInt , incorrecta porque el valor de varInt no entra en un short
+
+Ejercicio 4 , Apartado 030104:
+
+Gigante : Infinity -- al pasar de un double a un float , como es un numero muy grande nos da un resultado
+que dice literalmente infinito ya que el float no lo puede representar.
+
+Normal : 35.987656 -- al pasar el numero de dobule a float lo que hace es devolvernos un numero casi igual 
+pero no totalmente el mismo ya que cada tipo basico almacena los decimales de diferente forma.
+
+Minimo : 0.0 -- como es un numero muy pequeño al pasarlo de double a float lo que hace es que nos da que el 
+numero se aproxima a 0 , de ahi ese resultado , ya que float no tiene exponentes tan pequeños.
+
+Byte : -126 -- el numero propuesto se sale de los valores de byte , entonces lo que hace java es
+restarle ese numero a todo su espacio (256) y el valor que da esta ya dentro de los valores de byte , que
+nos devuelve.
+
+Short : -32766 -- este caso es parecido al de byte , como el numero se sale de los rangos de short , lo que
+hace java es coger esa diferencia en este caso de 2 unidades y sumarselo a su valor minimo quedando asi el valor dado.
+
+Int: 214748365 -- al principio este valor no se podia compilar ya que no entraba en los parametros de int , entonces 
+he tenido que cambiarlo por uno menor.
+

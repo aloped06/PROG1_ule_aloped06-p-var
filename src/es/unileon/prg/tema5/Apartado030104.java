@@ -70,11 +70,20 @@ package es.unileon.prg.tema5;
       
       // Inicio modificacion
          byte varByte;
-         short varShort;
+         short varShort;   
          int varInt;
-         long varLong;
+         long varLong; ;
+
       
          varLong=35000L;
+
+         varByte = (byte) varLong;
+         varShort = (short) varLong;
+         varInt = (int) varLong ;
+
+         System.out.println(" varByte = " + varByte);
+         System.out.println(" varShort = " + varShort);
+         System.out.println(" varInt = " + varInt ) ;
       // Fin modificacion
       }
    
@@ -86,7 +95,7 @@ package es.unileon.prg.tema5;
     * Asignar varFloat al resto de variables realizando las conversiones necesarias.
     * Imprime por pantalla el resultado de dichas conversiones
     */
-       public void ejercicio03() {
+       public void ejerc010303() {
          cabecera("03", "");
       
       // Inicio modificacion
@@ -97,6 +106,20 @@ package es.unileon.prg.tema5;
          float varFloat;
          double varDouble;
          varFloat= 123.1f;
+
+         varByte = (byte) varFloat ;
+         varShort = (short) varFloat;
+         varInt = (int) varFloat ;
+         varLong = (long) varFloat ;
+         varDouble =  varFloat ;
+
+         System.out.println( " varByte = " + varByte) ;
+         System.out.println( " varShort = " + varShort);
+         System.out.println( " varInt = "+varInt);
+         System.out.println( " varLong = " + varLong ) ;
+         System.out.println( " varDouble = " + varDouble);
+
+
         // Fin modificacion
       }
    
@@ -126,15 +149,15 @@ package es.unileon.prg.tema5;
       
          byte b = (byte)130;
          short s = (short)32770;
-         int i = (int)2147483650l; 
+         int i = (int)214748365;
       
          System.out.println("Byte  : " + b);    
          System.out.println("Short : " + s);    
          System.out.println("Int   : " + i);
       
-         /* DESCOMENTAR
-         float f = 1.3e22;   
-         System.out.println("f: " + f); 
+        /*DESCOMENTAR
+         float f = 1.3e22f ;
+         System.out.println("f: " + f ) ;
          */ 
       }
    }
